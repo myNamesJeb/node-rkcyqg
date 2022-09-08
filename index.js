@@ -29,7 +29,7 @@ class planet {
           this.speed--;
         }
         this.distAwayFromSun++;
-        console.table([{ height: this.distAwayFromSun, speed: this.speed }]);
+        console.table({ height: this.distAwayFromSun, speed: this.speed, name: this.name});
         sleep(this.speed);
         console.clear();
       }
@@ -38,7 +38,7 @@ class planet {
           this.speed++;
         }
         this.distAwayFromSun--;
-        console.table({ height: this.distAwayFromSun, speed: this.speed });
+        console.table({ height: this.distAwayFromSun, speed: this.speed, name: this.name});
         sleep(this.speed);
         console.clear();
       }
