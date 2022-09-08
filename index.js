@@ -23,10 +23,12 @@ class planet {
       for(i = this.periapsis; i != this.apoapsis; i++){
         this.distAwayFromSun++
         console.table( this.distAwayFromSun)
+        console.clear()
       }
       for(i = this.apoapsis; i != this.periapsis; i--){
         this.distAwayFromSun--
         console.table( this.distAwayFromSun)
+        console.clear()
       }
     }
     mes++
