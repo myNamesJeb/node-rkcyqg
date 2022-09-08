@@ -47,5 +47,5 @@ class planet {
   }
 }
 
-var kerbin = new planet(100, 3, 'kerbin');
+var kerbin = new planet(15, 3, 'kerbin');
 kerbin.init(2);
